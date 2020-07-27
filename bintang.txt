@@ -36,7 +36,6 @@
 // }
 // console.log(a)
 
-
 // Solve it 20
 // var a = ''
 // for(i=0;i<10;i++){
@@ -54,29 +53,29 @@
 // console.log(a)
 
 // Solve it 21
-// var a = ''
-// for(i=0;i<10;i++){
-//     if(i<5) {
-//         for(j=i;j<5;j++){ // banyak --> kecil
-//             a += '  '
-//         }
-//         for(k=0;k<i+1;k++){ // kecil --> banyak
-//             a += '* '
-//         }
-//         for(l=1;l<i+1;l++){ // kecil --> banyak
-//             a += '* '
-//         }
-//     }else{ // i = 5
-//         for(j=4;j<i;j++){
-//             a += '  '
-//         }
-//         for(k=i;k<10;k++){ 
-//             a += '* '
-//         }
-//         for(l=i+1;l<10;l++){ 
-//             a += '* '
-//         }
-//     }
-//     a+='\n'
-// }
-// console.log(a)
+var a = ''
+for(i=0;i<10;i++){
+    if(i<5) {
+        for(j=i;j<5;j++){ // banyak --> kecil
+            a += '  '
+        }
+        for(k=0;k<i+1;k++){ // kecil --> banyak
+            a += '* '
+        }
+        for(l=1;l<i+1;l++){ // kecil --> banyak
+            a += '* '
+        }
+    }else{ // i = 5
+        for(j=4;j<i;j++){
+            a += '  '
+        }
+        for(k=i;k<10;k++){ 
+            a += '* '
+        }
+        for(l=i+1;l<10;l++){ 
+            a += '* '
+        }
+    }
+    a+='\n'
+}
+console.log(a)
